@@ -1,0 +1,9 @@
+color:
+  theme: custom
+date: '+%b %d, %Y at %I:%M%p'
+size: default
+blocks:
+  - permission
+  - name
+  - date
+  - size
