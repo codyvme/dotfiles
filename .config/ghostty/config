@@ -1,0 +1,13 @@
+shell-integration = fish
+font-family = "GeistMono Nerd Font"
+font-size = 14
+theme = "catppuccin-latte"
+font-feature = "-calt"
+font-feature = "-liga"
+font-feature = "-dlig"
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+window-height = 40
+window-width = 120
+confirm-close-surface = false
