@@ -1,56 +1,44 @@
 palette = "catppuccin_latte"
 
 format = """
-[](mauve)\
-$os\
-$username\
-[](mauve)\
+[╭ ](text)\
 $directory\
 $git_branch\
 $git_status
 $character"""
 
-[character]
-success_symbol = "[❯](bold text)"
-
-[username]
-format = "[$user]($style)"
-style_root = "bold bg:mauve fg:base"
-style_user = "bold bg:mauve fg:base"
-show_always = true
-
 [directory]
-format = " [](fg:blue)[$path]($style)[](fg:blue) "
-truncation_length = 2
-truncation_symbol = "../"
-truncate_to_repo = false
+format = "[$path]($style) "
+truncation_length = 1
 read_only = " 󰌾"
-style = "bold bg:blue fg:base"
-
-[os]
-format = "[$symbol]($style)"
-style = "bg:mauve fg:base"
-disabled = false
+style = "bold blue"
 
 [git_branch]
-format = "[](fg:teal)[$symbol $branch]($style)[](fg:teal) "
+format = "on [$symbol $branch]($style) "
 symbol = ""
-style = "bold bg:teal fg:base"
+style = "bold teal"
 
 [git_status]
 format = """
-[$conflicted](peach)\
-[$untracked](blue)\
-[$modified$renamed](yellow)\
-[$staged](green)\
-[$deleted](red)($ahead_behind$stashed)"""
-conflicted = " $count"
-untracked = " $count"
-modified = " $count"
-deleted = " $count"
-staged = " $count"
-renamed = " $count"
-stashed = " $count"
+[$conflicted](bold red)\
+[$untracked](bold blue)\
+[$modified$renamed](bold yellow)\
+[$staged](bold green)\
+[$deleted](bold red)($ahead_behind$stashed)"""
+conflicted = " $count "
+untracked = " $count "
+modified = " $count "
+deleted = " $count "
+staged = " $count "
+renamed = " $count "
+ahead = " $count "
+stashed = " $count "
+behind = " $count "
+# diverged = "diverged $count"
+
+[character]
+success_symbol = "[╰](bold text)"
+error_symbol = "[╰](bold text)"
 
 [aws]
 symbol = "  "
@@ -221,6 +209,7 @@ symbol = " "
 
 [gradle]
 symbol = " "
+
 
 [palettes.catppuccin_latte]
 rosewater = "#dc8a78"
