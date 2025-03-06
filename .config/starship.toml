@@ -34,7 +34,6 @@ renamed = " $count "
 ahead = " $count "
 stashed = " $count "
 behind = " $count "
-# diverged = "diverged $count"
 
 [character]
 success_symbol = "[╰](bold text)"
