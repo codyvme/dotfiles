@@ -7,4 +7,7 @@ alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias ls lsd
 alias cat 'bat --theme="Catppuccin Latte"'
 
+eval (ssh-agent -c)
+ssh-add
+
 starship init fish | source
