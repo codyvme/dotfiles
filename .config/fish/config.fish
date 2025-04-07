@@ -1,5 +1,4 @@
 set -g fish_greeting
-set -gx QT_SCALE_FACTOR_ROUNDING_POLICY Round
 
 bind tab accept-autosuggestion
 
