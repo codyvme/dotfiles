@@ -1,0 +1,13 @@
+.cfg
+.cache
+.local/share
+.local/state
+.pki
+.ssh
+.var
+.vscode
+.wget-hsts
+Desktop
+Documents
+Downloads
+Pictures
