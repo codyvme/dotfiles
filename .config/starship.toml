@@ -1,7 +1,7 @@
-palette = "catppuccin_latte"
+palette = "monokai_pro_octagon"
 
 format = """
-[╭ ](text)\
+[╭ ](dimmed1)\
 $directory\
 $git_branch\
 $git_status
@@ -16,7 +16,7 @@ style = "bold blue"
 [git_branch]
 format = "on [$symbol $branch]($style) "
 symbol = ""
-style = "bold teal"
+style = "bold green"
 
 [git_status]
 format = """
@@ -36,8 +36,8 @@ stashed = " $count "
 behind = " $count "
 
 [character]
-success_symbol = "[╰](bold text)"
-error_symbol = "[╰](bold text)"
+success_symbol = "[╰](bold dimmed1)"
+error_symbol = "[╰](bold dimmed1)"
 
 [aws]
 symbol = "  "
@@ -237,3 +237,20 @@ surface0 = "#ccd0da"
 base = "#eff1f5"
 mantle = "#e6e9ef"
 crust = "#dce0e8"
+
+[palettes.monokai_pro_octagon]
+dark2 = "#161821"
+dark1 = "#1e1f2b"
+background = "#282a3a"
+text = "#eaf2f1"
+red = "#ff657a"
+orange = "#ff9b5e"
+yellow = "#ffd76d"
+green = "#bad761"
+blue = "#9cd1bb"
+purple = "#c39ac9"
+dimmed1 = "#b2b9bd"
+dimmed2 = "#888d94"
+dimmed3 = "#696d77"
+dimmed4 = "#535763"
+dimmed5 = "#3a3d4b"
