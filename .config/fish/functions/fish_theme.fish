@@ -1,0 +1,29 @@
+# Monokai Pro (Octagon)
+function fish_theme
+    set -g fish_color_normal 535763
+    set -g fish_color_command 9cd1bb
+    set -g fish_color_param c39ac9
+    set -g fish_color_keyword ff657a
+    set -g fish_color_quote bad761
+    set -g fish_color_redirection c39ac9
+    set -g fish_color_end ff9b5e
+    set -g fish_color_comment b2b9bd
+    set -g fish_color_error ff657a
+    set -g fish_color_gray b2b9bd
+    set -g fish_color_selection --background=b2b9bd
+    set -g fish_color_search_match --background=b2b9bd
+    set -g fish_color_option bad761
+    set -g fish_color_operator c39ac9
+    set -g fish_color_escape ff657a
+    set -g fish_color_autosuggestion b2b9bd
+    set -g fish_color_cancel ff657a
+    set -g fish_color_cwd ff9b5e
+    set -g fish_color_user 9cd1bb
+    set -g fish_color_host 9cd1bb
+    set -g fish_color_host_remote bad761
+    set -g fish_color_status ff657a
+    set -g fish_pager_color_progress b2b9bd
+    set -g fish_pager_color_prefix c39ac9
+    set -g fish_pager_color_completion 535763
+    set -g fish_pager_color_description b2b9bd
+end
