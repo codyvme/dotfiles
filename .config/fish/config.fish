@@ -3,7 +3,6 @@ set -g fish_greeting
 bind tab accept-autosuggestion
 
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-alias ls lsd
 
 if not pgrep -u "$USER" ssh-agent > /dev/null
     ssh-agent -s | source
