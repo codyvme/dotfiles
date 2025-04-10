@@ -1,7 +1,7 @@
 shell-integration = fish
 font-family = "GeistMono Nerd Font"
 font-size = 14
-theme = "catppuccin-latte"
+theme = "GruvboxDarkHard"
 font-feature = "liga"
 window-padding-x = 10
 window-padding-y = 10
