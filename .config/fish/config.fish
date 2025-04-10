@@ -12,6 +12,3 @@ else
 end
 
 starship init fish | source
-
-# Monokai Pro (Octagon)
-fish_theme
